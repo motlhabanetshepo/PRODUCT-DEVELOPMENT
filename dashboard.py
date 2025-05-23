@@ -92,7 +92,6 @@ app = dash.Dash(__name__, external_stylesheets=[
     'https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css',
     '/assets/styles.css'
 ])
-server = app.server
 app.title = "AI-Solutions Sales Dashboard"
 
 # KPIs
